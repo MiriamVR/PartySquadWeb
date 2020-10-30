@@ -1,0 +1,94 @@
+body {
+  font-family: 'Architects Daughter', cursive;
+  position: relative;
+  background-image: url("resources/img/bkground.jpg");
+}
+
+.container-fluid {
+  padding-left: 0%;
+  padding-right: 0%;
+}
+
+/* CAROUSEL -------------------------------------------------------------------------------------------*/
+.carousel {
+  background: linear-gradient(to right, #eb5401, #EFB52B);
+}
+
+/* CARDS TARIFAS ------------------------------------------------------------------------------------- */
+.tarifas {
+  width: 80%;
+  background: #007bff;
+  background: linear-gradient(to right, #eb5401, #EFB52B);
+  padding: 5%;
+}
+
+.tarifas .card {
+  border: none;
+  border-radius: 2.5%;
+}
+
+.tarifas hr {
+  margin: 10%;
+}
+
+.tarifas .card-title {
+  margin: 1%;
+  font-size: 20px;
+  letter-spacing: 3px;
+  font-weight: bold;
+}
+
+.tarifas .card-price {
+  font-size: 3rem;
+}
+
+.tarifas .card-price .period {
+  font-size: 50%;
+}
+
+.tarifas ul li {
+  margin-bottom: 5%;
+}
+
+.tarifas .btn {
+  font-size: 80%;
+  border-radius: 5rem;
+  letter-spacing: 3px;
+  font-weight: bold;
+  padding: 5%;
+  transition: all 0.2s;
+}
+
+/* HOVER TARJETAS TARIFAS -------------------*/
+@media (min-width: 992px) {
+  .tarifas .card:hover .btn {
+    opacity: 1;
+  }
+}
+
+/* FORMULARIO -----------------------------------------------------------------------------------------*/
+@font-face {
+  font-family: "BAHNSCHRIFT";
+  src: url("fonts/BAHNSCHRIFT.TTF");
+}
+
+.form-control {
+  font-family: "BAHNSCHRIFT";
+}
+
+.formu {
+  height: 700px;
+  background: linear-gradient(to right, #eb5401, #EFB52B);
+  border-radius: 3%;
+  opacity: 0.8;
+}
+
+.login, .image {
+  min-height: 100vh;
+}
+
+.bg-image {
+  background-image: url("resources/img/form2.jpg");
+  background-size: cover;
+  background-position: center;
+}
